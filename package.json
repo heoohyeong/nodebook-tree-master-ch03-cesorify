@@ -1,0 +1,20 @@
+{
+    "author" : "Brad Dayley",
+    "name" : "censorify",
+    "version" : "0.1.1",
+    "description" : "Censor words out of text",
+    "main" : "censortext",
+    "repository" : { 
+        "type": "git",
+        "url":"https://github.com/heoohyeong/nodebook-tree-master-ch03-cesorify.git"
+    },
+    "keywords": [ 
+        "censor",
+        "words"
+    ],
+    "dependencies": {},
+    "engines":{
+        "node" :"*"
+    }
+
+}
