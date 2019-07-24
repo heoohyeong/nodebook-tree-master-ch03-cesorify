@@ -13,10 +13,10 @@ censortext.censor = function (inStr) {
 }
 
 censortext.addCensoredWord = function(word){
-    customCensoredWords.push(word);
+    censortext.customCensoredWords.push(word);
 }
 censortext.getCensoredWords = function(){
-    return censoredWords.concat(customCensoredWords);
+    return censortext.censoredWords.concat(censortext.customCensoredWords);
 }
 
-export default censortext
+module.exports = censortext
