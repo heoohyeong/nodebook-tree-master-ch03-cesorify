@@ -20,3 +20,4 @@ censortext.getCensoredWords = function(){
 }
 
 module.exports = censortext;;
+
