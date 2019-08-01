@@ -11,6 +11,7 @@ censortext.censor = function (inStr) {
     return inStr;
 
 }
+// 충돌 테스트 입니다. 다시
 
 censortext.addCensoredWord = function(word){
     censortext.customCensoredWords.push(word);
@@ -19,5 +20,4 @@ censortext.getCensoredWords = function(){
     return censortext.censoredWords.concat(censortext.customCensoredWords);
 }
 
-module.exports = censortext;;
-
+module.exports = censortext
