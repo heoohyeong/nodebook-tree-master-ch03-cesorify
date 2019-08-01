@@ -19,4 +19,4 @@ censortext.getCensoredWords = function(){
     return censortext.censoredWords.concat(censortext.customCensoredWords);
 }
 
-module.exports = censortext
+module.exports = censortext;;
